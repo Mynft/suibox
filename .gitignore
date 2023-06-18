@@ -8,3 +8,4 @@ boilerplate
 .task/
 node_modules/
 .idea/
+dist/
