@@ -1,0 +1,10 @@
+[package]
+name = "Suibox"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.3.0" }
+
+[addresses]
+suibox = "0x0"
+sui =  "0x2"
